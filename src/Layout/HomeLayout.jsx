@@ -57,13 +57,13 @@ export default function HomeLayout({ navigation }) {
               <View>
                 <Texto
                   style={{ color: style.paragraphColor }}
-                  text={"Entra a la mejor comunidad Web3 de desarrollo 🚧"}
+                  text={"Join the best Web3 development community 🚧"}
                 />
                 <Texto
                   fontSize={1.4}
                   style={{ color: style.borderColor }}
                   text={
-                    "Descubre todas nuestras utilidades entrando a la comunidad de Discord o en nuestro Twitter"
+                    "Discover all our utilities by joining the Discord community or on our Twitter feed"
                   }
                 />
               </View>
@@ -102,7 +102,7 @@ export default function HomeLayout({ navigation }) {
                   <Texto
                     fontSize={1.8}
                     style={{ color: style.ButtonColor, textAlign: "center" }}
-                    text={"Consigue Recompensas >"}
+                    text={"Get Rewards >"}
                   />
                 </TouchableOpacity>
               </View>
@@ -120,37 +120,37 @@ export default function HomeLayout({ navigation }) {
                   }}>
                   <IconText
                     name={"shoppingcart"}
-                    text={"Productos"}
+                    text={"Products"}
                     onPress={() => navigation.navigate("Productos")}
                   />
                   <IconText
                     name={"customerservice"}
-                    text={"Servicios"}
+                    text={"Services"}
                     onPress={() => navigation.navigate("Servicios")}
                   />
                   <IconText
                     name={"lock1"}
-                    text={"Materiales"}
+                    text={"Materials"}
                     onPress={() => navigation.navigate("Materiales")}
                   />
                   <IconText
                     name={"lock1"}
-                    text={"Maestrias"}
+                    text={"Masters"}
                     onPress={() => navigation.navigate("Cursos")}
                   />
                   <IconText
                     name={"lock1"}
-                    text={"Trabajos"}
+                    text={"Works"}
                     onPress={() => navigation.navigate("Trabajos")}
                   />
                   <IconText
                     name={"lock1"}
-                    text={"Comunidad"}
+                    text={"Community"}
                     onPress={() => navigation.navigate("Comunidad")}
                   />
                   <IconText
                     name={"lock1"}
-                    text={"Mercado"}
+                    text={"P2P Market"}
                     onPress={() => navigation.navigate("Mercado")}
                   />
                 </View>
@@ -172,7 +172,7 @@ export default function HomeLayout({ navigation }) {
                 <Texto
                   fontSize={1.9}
                   style={{ color: style.paragraphColor }}
-                  text={"BUILDERS"}
+                  text={"POLI ~ PASS"}
                 />
                 <Icon
                   name="rocket1"

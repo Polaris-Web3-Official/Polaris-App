@@ -73,7 +73,7 @@ export default function MenuDrawerNavigation({ navigation }) {
         <View style={{ gap: 5, marginTop: 10 }}>
           <View>
             <BottonMenuDrawer
-              text={"Casa"}
+              text={"Home"}
               onPress={() => navigation.navigate("NavigationTab")}
               icon="home"
               type={"ant-design"}
@@ -82,7 +82,7 @@ export default function MenuDrawerNavigation({ navigation }) {
 
           <View>
             <BottonMenuDrawer
-              text={"Patrocinadores"}
+              text={"Sponsors"}
               onPress={() => navigation.navigate("Sponsors")}
               icon="hearto"
               type={"ant-design"}
@@ -91,11 +91,11 @@ export default function MenuDrawerNavigation({ navigation }) {
 
           <View>
             <BottonMenuDrawer
-              text={"Compartir con amigos"}
+              text={"Share with friends"}
               onPress={() =>
                 Share.share({
                   message:
-                    "¡Hola! he estado probando Polaris, una app mobile para estar al pendiente de todo el ecosistema Web3 Hispano. Te invito a echarle un vistazo tambien 🐋 : https://polarisweb3.org",
+                    "Hi! I've been testing Polaris, a mobile app to keep track of the entire Web3 ecosystem and have access to information easily, quickly and conveniently. I invite you to check it out too 🐋 : https://polarisweb3.org",
                   url: "https://polarisweb3.org",
                 })
               }
@@ -124,7 +124,7 @@ export default function MenuDrawerNavigation({ navigation }) {
                 style={{
                   color: style.ButtonColor,
                 }}
-                text={!showLinks ? "¿ Te gusta " : "¡ Cuentanos tu "}
+                text={!showLinks ? "Do you like " : "Tell us your "}
               />
               <Texto
                 fontSize={2}

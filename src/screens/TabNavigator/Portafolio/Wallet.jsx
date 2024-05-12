@@ -16,7 +16,7 @@ export default function Wallet() {
   return (
     <View style={{
       flex: 1}}>
-      <Header name={'Portafolio '} name2="Web3"/>
+      <Header name={'Portfolio '} name2="Web3"/>
       <View
         style={{
           flex: 1,

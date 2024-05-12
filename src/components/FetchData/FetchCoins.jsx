@@ -84,7 +84,7 @@ function FetchCoins({ calUrl, imgError, target }) {
       style={[CardsCoinsMarket.container, { marginTop: 10, marginBottom: 20 }]}>
       <View style={CardsCoinsMarket.placeHolderContainer}>
         <TextInput
-          placeholder="Hasta 500 criptomonedas disponibles en la fase BETA"
+          placeholder="Up to 500 cryptocurrencies available in the V1.0"
           style={CardsCoinsMarket.placeHolder}
           placeholderTextColor={style.borderColor}
           onChangeText={(text) => setInputText(text.toLowerCase())}

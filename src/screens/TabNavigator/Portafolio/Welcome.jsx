@@ -4,7 +4,10 @@ import Texto from "../../../components/Comuns/Text";
 import GlobalStyle from "../../../style/Global";
 import { ConnectedButton } from "../../../components/Portafolio/ConectButton";
 
-export default function Welcome({title="Tu portafolio crypto", text="El mejor lugar para hacerle un seguimiento intensivo a tus criptomonedas favoritas"}) {
+export default function Welcome({
+    title="Your crypto portfolio", 
+    text="The best place to intensively track your favorite cryptocurrencies"
+  }) {
   return (
     <View>
       <ScrollView>
@@ -34,6 +37,7 @@ export default function Welcome({title="Tu portafolio crypto", text="El mejor lu
           <ConnectedButton
             textStyle={styles.textButton}
             ButtonStyle={styles.button}
+            
           />
         </View>
       </ScrollView>

@@ -22,7 +22,7 @@ function Headers({
   navigation,
   name,
   name2 = "",
-  image = require("../../../assets/Logotype/logotypeOnlyBackgroundNoneHD.png"),
+  image = require("../../../assets/polaris_brand/logotypeOnlyBackgroundNoneHD.png"),
   iconMenu = "menu",
   typeIconMenu = "",
 }) {
@@ -70,13 +70,13 @@ function Headers({
             <Menu.Item
               onPress={() => {
                 if (isConnected) {
-                  Linking.openURL("https://example.com");
+                  Linking.openURL("https://polarisweb3.org");
                 }
               }}
               title={
                 isConnected ? (
                   <View style={headerStyles.menuItemContainer}>
-                    <Texto style={styles.conect} text={"Documentacion"} />
+                    <Texto style={styles.conect} text={"Web Site"} />
                     <Icon
                       name="Safety"
                       type="ant-design"
@@ -86,7 +86,7 @@ function Headers({
                   </View>
                 ) : (
                   <View style={headerStyles.menuItemContainer}>
-                    <Texto style={styles.conect} text={"Documentacion"} />
+                    <Texto style={styles.conect} text={"Web Site"} />
                     <Icon
                       name="Safety"
                       type="ant-design"
@@ -101,13 +101,13 @@ function Headers({
             <Menu.Item
               onPress={() => {
                 if (isConnected) {
-                  Linking.openURL("https://example.com");
+                  Linking.openURL("https://docs.polarisweb3.org");
                 }
               }}
               title={
                 isConnected ? (
                   <View style={headerStyles.menuItemContainer}>
-                    <Texto style={styles.conect} text={"Manifiesto Droids"} />
+                    <Texto style={styles.conect} text={"Documentation"} />
                     <Icon
                       name="clouddownloado"
                       type="ant-design"
@@ -117,7 +117,7 @@ function Headers({
                   </View>
                 ) : (
                   <View style={headerStyles.menuItemContainer}>
-                    <Texto style={styles.conect} text={"Manifiesto Droids"} />
+                    <Texto style={styles.conect} text={"Documentation"} />
                     <Icon
                       name="clouddownloado"
                       type="ant-design"
@@ -132,23 +132,23 @@ function Headers({
             <Menu.Item
               onPress={() => {
                 if (isConnected) {
-                  Linking.openURL("https://example.com");
+                  Linking.openURL("https://docs.polarisweb3.org");
                 }
               }}
               title={
                 isConnected ? (
                   <View style={headerStyles.menuItemContainer}>
-                    <Texto style={styles.conect} text={"Lista Blanca Droids"} />
+                    <Texto style={styles.conect} text={"White List Pass"} />
                     <Icon
                       name="checkcircleo"
                       type="ant-design"
                       size={17}
-                      color={style.testColor2}
+                      color={style.testColor}
                     />
                   </View>
                 ) : (
                   <View style={headerStyles.menuItemContainer}>
-                    <Texto style={styles.conect} text={"Lista Blanca Droids"} />
+                    <Texto style={styles.conect} text={"White List Pass"} />
                     <Icon
                       name="closecircleo"
                       type="ant-design"
@@ -186,7 +186,7 @@ function Headers({
               title={
                 <Texto
                   style={styles.conect}
-                  text={isConnected ? "Desconectar" : "Canectar Billetera"}
+                  text={isConnected ? "Disconnect Wallet" : "Connect Wallet"}
                 />
               }
             />

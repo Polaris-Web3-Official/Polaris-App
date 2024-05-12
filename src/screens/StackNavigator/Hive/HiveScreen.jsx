@@ -1,8 +1,9 @@
 import { View, Text } from "react-native";
 import React from "react";
-import NavigationStackHive from "../../../navigation/NavigationStack/NavigationStackHive";
+//import NavigationStackHive from "../../../navigation/NavigationStack/NavigationStackHive";
 import GlobalStyle from "../../../style/Global";
-import Headers from "../../../components/Comuns/Header";
+import FetchNews from "../../../components/News/FetchNews";
+import Header from "../../../components/Comuns/Header";
 
 const style = GlobalStyle();
 
@@ -15,7 +16,11 @@ export default function HiveScreen({ navigation }) {
         alignItems: "center",
         backgroundColor: style.mainBackgroundColor,
       }}>
-      <NavigationStackHive />
+      <Header 
+        name={'Latest '}
+        name2="News"
+      />
+      <FetchNews />
     </View>
   );
 }

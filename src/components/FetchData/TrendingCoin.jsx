@@ -70,12 +70,12 @@ function TrendingCrypto() {
               <Texto
               fontSize={1.4}
                 style={{color: style.paragraphColor }}
-                text={"Criptomoneda en "}
+                text={"Trending "}
               />
               <Texto
               fontSize={1.4}
                 style={{color: style.ButtonColor }}
-                text={"Tendencia"}
+                text={"Cryptocurrency"}
               />
             </View>
             <Image

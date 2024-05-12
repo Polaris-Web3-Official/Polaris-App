@@ -20,12 +20,6 @@ import Error from "../Comuns/Error";
 import FlotingBotton from "../Comuns/FlotingBotton";
 import GetBasicInfoForUser from "../Hive/GetBasicInfoForUser";
 import { getPosts } from "../Hive/Functions/getPosts";
-import { AlertHive } from "../Comuns/Alerts";
-import {
-  ALERT_TYPE,
-  Dialog,
-  AlertNotificationRoot,
-} from "react-native-alert-notification";
 
 function HivePosts({ navigation, limit = 30 }) {
   const [posts, setPosts] = useState([]);
@@ -301,8 +295,8 @@ function HivePosts({ navigation, limit = 30 }) {
     <View style={{ backgroundColor: style.mainBackgroundColor }}>
       <Headers
         navigation={() => navigation.openDrawer()}
-        name2={"Publicaciones"}
-        name={"Ultimas "}
+        name2={"Publications"}
+        name={"Last "}
       />
 
       <View
@@ -314,7 +308,7 @@ function HivePosts({ navigation, limit = 30 }) {
         }}>
         <View style={{ width: "60%" }}>
           <TextInput
-            placeholder="Que buscamos hoy en Hive ?"
+            placeholder="What are we looking for today at Hive ?"
             placeholderTextColor={style.borderColor}
             cursorColor={style.ButtonColor}
             selectionColor={style.ButtonColor}

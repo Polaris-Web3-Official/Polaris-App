@@ -50,7 +50,7 @@ export default function NavigationTopGainersLosers({ navigation }) {
                   style={{
                     color: color,
                   }}
-                  text={"Ganadoras"}
+                  text={"Winners"}
                 />
                 <Icon
                   name="chart-bell-curve-cumulative"
@@ -81,7 +81,7 @@ export default function NavigationTopGainersLosers({ navigation }) {
                   style={{
                     color: color,
                   }}
-                  text={"Perdedoras"}
+                  text={"Losers"}
                 />
                 <Icon
                   name="chart-bell-curve"

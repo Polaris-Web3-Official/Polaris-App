@@ -16,8 +16,8 @@ function Home({ navigation }) {
         width: "100%",
       }}>
       <Headers
-        name={"Bienvenido "}
-        name2={"a Polaris 🐋"}
+        name={"Welcome "}
+        name2={"to Polaris 🐋"}
         icon={"home"}
         navigation={() => navigation.openDrawer()}
       />

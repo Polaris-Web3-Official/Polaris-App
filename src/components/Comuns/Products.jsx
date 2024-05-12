@@ -26,13 +26,13 @@ export default function Products({
               style={ProductsStyles.description}
               text={description}
             />
-            <Texto style={ProductsStyles.price} text={`Precio: $${price}`} />
+            <Texto style={ProductsStyles.price} text={`Price: $${price}`} />
           </View>
 
           <View style={{ alignItems: "center", marginTop: -10 }}>
             <Texto
               style={ProductsStyles.descuent}
-              text={`Holders: -${descuent}%`}
+              text={`Clients: -${descuent}%`}
             />
           </View>
 

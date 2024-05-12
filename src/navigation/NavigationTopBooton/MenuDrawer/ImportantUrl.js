@@ -3,37 +3,37 @@ const url = [
     name: "book",
     type: "ant-design",
     onPress: () => Linking.openURL("https://discord.gg/kTJkWawehY"),
-    text: "Glosario",
+    text: "Glossary",
   },
   {
     name: "questioncircleo",
     type: "ant-design",
     onPress: () => Linking.openURL("https://discord.gg/kTJkWawehY"),
-    text: "Centro de Ayuda",
+    text: "Help Center",
   },
   {
     name: "form",
     type: "ant-design",
     onPress: () => Linking.openURL("https://discord.gg/kTJkWawehY"),
-    text: "Guias y Tutoriales",
+    text: "Guides and Tutorials",
   },
   {
     name: "customerservice",
     type: "ant-design",
     onPress: () => Linking.openURL("https://discord.gg/kTJkWawehY"),
-    text: "Preguntas Frecuentes",
+    text: "Questions (FAQ)",
   },
   {
     name: "team",
     type: "ant-design",
     onPress: () => Linking.openURL("https://discord.gg/kTJkWawehY"),
-    text: "Sobre Nosotros",
+    text: "About Us",
   },
   {
     name: "Safety",
     type: "ant-design",
     onPress: () => Linking.openURL("https://discord.gg/kTJkWawehY"),
-    text: "Contacto",
+    text: "Contact",
   },
 ];
 

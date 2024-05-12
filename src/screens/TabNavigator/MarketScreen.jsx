@@ -11,8 +11,8 @@ export default function MarketScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Header
-        name={"Mercado "}
-        name2="Crypto"
+        name={"Crypto "}
+        name2="Market"
         navigation={() => navigation.openDrawer()}
       />
 

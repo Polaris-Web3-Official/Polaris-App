@@ -19,13 +19,13 @@ export const ConnectedButton = ({ ButtonStyle, textStyle }) => {
           <TouchableOpacity
             style={{ ...ButtonStyle }}
             onPress={() => provider?.disconnect()}>
-            <Texto style={{...textStyle}} text={"Desconectar billetera"} />
+            <Texto style={{...textStyle}} text={"Disconnect Wallet"} />
           </TouchableOpacity>
         </>
       ) : (
         <>
           <TouchableOpacity style={{ ...ButtonStyle }} onPress={open}>
-            <Texto style={{...textStyle}} text={"Conecte su billetera"} />
+            <Texto style={{...textStyle}} text={"Connect your Wallet"} />
           </TouchableOpacity>
         </>
       )}

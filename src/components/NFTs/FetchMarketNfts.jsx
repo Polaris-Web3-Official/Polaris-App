@@ -61,7 +61,7 @@ const Item = ({ item }) => {
             <Texto
               fontSize={1.8}
               style={{ color: style.paragraphColor }}
-              text={isDetailsVisible ? "Ver menos detalles" : "Ver mas detalles"}
+              text={isDetailsVisible ? "See less details" : "See more details"}
             />
           </View>
         </View>
@@ -90,7 +90,7 @@ const Item = ({ item }) => {
                 <Texto
                   fontSize={1.5}
                   style={{ color: style.paragraphColor }}
-                  text={`Volumen total:  `}
+                  text={`Total volume:  `}
                 />
                 <Texto
                   fontSize={1.5}
