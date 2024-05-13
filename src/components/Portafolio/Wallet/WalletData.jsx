@@ -11,6 +11,7 @@ import Balance from "../getBalance";
 import formatStr from "../../../utils/FormatStr";
 import formatNumber from "../../../utils/FormatNumer";
 import WalletDataStyle from "../../../style/ComponentsStyles/Portafolio/WalletdataStyles";
+import Comming from "../../Comuns/Comming";
 
 const style = GlobalStyle();
 
@@ -25,14 +26,7 @@ export default function WalletData() {
           <View style={WalletDataStyle.content1}>
             <View style={WalletDataStyle.balanceContainer}>
               <View>
-                <Texto
-                  style={WalletDataStyle.balance}
-                  text={
-                    Balance(address)
-                      ? formatNumber(formatStr(Balance(address), 7))
-                      : "0.00"
-                  }
-                />
+                <Comming />
               </View>
             </View>
           </View>
