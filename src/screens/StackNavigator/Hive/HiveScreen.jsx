@@ -17,6 +17,7 @@ export default function HiveScreen({ navigation }) {
         backgroundColor: style.mainBackgroundColor,
       }}>
       <Header 
+        navigation={()=>navigation.openDrawer()}
         name={'Latest '}
         name2="News"
       />

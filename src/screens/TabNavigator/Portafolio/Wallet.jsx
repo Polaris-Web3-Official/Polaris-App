@@ -9,14 +9,14 @@ import Header from "../../../components/Comuns/Header";
 
 const style = GlobalStyle();
 
-export default function Wallet() {
+export default function Wallet({navigation}) {
   const conect = Connected();
   const isConnected = conect[0];
   const address = conect[1];
   return (
     <View style={{
       flex: 1}}>
-      <Header name={'Portfolio '} name2="Web3"/>
+      <Header navigation={()=> navigation.openDrawer()} name={'Portfolio '} name2="Web3"/>
       <View
         style={{
           flex: 1,
