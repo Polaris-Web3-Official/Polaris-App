@@ -38,3 +38,4 @@ yarn-error.*
 
 #infura
 src/utils/Infura.jsx
+src/components/News/FetchNews.jsx
