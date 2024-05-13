@@ -12,10 +12,10 @@ import formatStr from "../../utils/FormatStr";
 import Error from "../Comuns/Error";
 import Texto from "../Comuns/Text";
 import fetchNewsStyles from "../../style/ComponentsStyles/FetchNewsStyles";
+import { apiKeyNews } from "../../utils/Infura";
 
 const style = GlobalStyle();
-const apikey = "aeda2c8f01eQF0LJ3ESCZD303DZ4443f9ac4b40918bade78";
-const url = `https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers=COIN&apikey=${apikey}`;
+const url = `https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers=COIN&apikey=${apiKeyNews}`;
 
 function convertirFecha(fecha) {
   var año = fecha.substring(0, 4);
