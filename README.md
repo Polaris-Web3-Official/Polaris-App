@@ -1,9 +1,4 @@
 ## ¡Welcome to the official repository of Polaris App!
-[![Twitter](https://polarisweb3.org/wp-content/uploads/2024/03/Proyecto-nuevo-4.webp)](https://x.com/PolarisWeb3)
-[![DIscord](https://polarisweb3.org/wp-content/uploads/2024/03/Proyecto-nuevo-5.webp)](https://x.com/PolarisWeb3)
-[![Youtube](https://polarisweb3.org/wp-content/uploads/2024/03/Proyecto-nuevo-6.webp)](https://x.com/PolarisWeb3)
-[![Faceebook](https://polarisweb3.org/wp-content/uploads/2024/03/Proyecto-nuevo-7.webp)](https://x.com/PolarisWeb3)
-[![Reddit](https://polarisweb3.org/wp-content/uploads/2024/03/Proyecto-nuevo-9.webp)](https://x.com/PolarisWeb3)
 
 **What will I find here?**
 In this repository, you will find all the source code of the Polaris mobile application, an application with various utilities for the web3 community.
@@ -20,9 +15,9 @@ In this repository, you will find all the source code of the Polaris mobile appl
 
 **Screenshots:**
 
-| ![Screenshot 1](https://polarisweb3.org/wp-content/uploads/2024/03/Captura-desde-2024-03-20-16-16-18.png) | ![Screenshot 2](https://polarisweb3.org/wp-content/uploads/2024/03/Captura-desde-2024-03-20-16-17-01.png) | ![Screenshot 3](https://polarisweb3.org/wp-content/uploads/2024/03/Captura-desde-2024-03-20-16-18-11.png) |
-|-------------------------------------------|-------------------------------------------|-------------------------------------------|
-|         Screenshot 1             |         Screenshot 2             |         Screenshot 3             |
+| ![Screenshot 1](https://cusoft.tech/wp-content/uploads/2024/03/Captura-desde-2024-03-29-18-36-27.png) |
+|-------------------------------------------|
+|         Screenshot 1             |
 
 **Getting Started:**
 
